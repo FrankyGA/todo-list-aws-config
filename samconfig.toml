@@ -1,0 +1,9 @@
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "todo-list-stack"
+s3_bucket = "todo-list-aws-bucket-43-unique"
+s3_prefix = "todo-list"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+table_name = "ToDoList-Staging"
